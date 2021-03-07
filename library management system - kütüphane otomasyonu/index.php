@@ -13,6 +13,12 @@
 <div class="wrapper">
 
     <header>
+        <div class="logo">
+        <img  src="images/9.png" alt="">
+        <h1 >Online Library Management System</h1>
+        </div>
+
+
         <nav>
             <ul>
                 <li><a href="">HOME</a></li>
@@ -25,7 +31,13 @@
     </header>
 
     <section>
-
+        <div class="box">
+            <h1>Welcome to library</h1>
+            <hr>
+            <h1>Opens at: 09:00</h1>
+            <h1>Closes at: 15:00</h1>
+            <hr>
+        </div>
     </section>
 
     <footer>

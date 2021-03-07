@@ -111,17 +111,88 @@ header{
     height: 20vh;
     width: 100%;
     background-color: black;
+    overflow: hidden;
 }
 section{
-    height: 64vh;
+    height: 66vh;
+    max-height: 66vh;
     width: 100%;
     background-color: gray;
+
 }
 footer{
-    height: 16vh;
+    height: 14vh;
     width: 100%;
     background-color: black;
 }
-li a{
+
+.logo
+{
+    width: 45vw;
+    padding-top: 4vh;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    padding-left: 2vw;
+    line-height:3vh;
+}
+.logo img{
+    min-width: 8vw;
+    max-width: 10vw;
+    min-height: 8vh;
+    max-height: 10vh;
+    padding-left: 12vw;
+}
+
+.logo h1{
+font-size: 2vw;
+color: white;
+}
+
+li a
+{
     color: white;
+}
+
+nav
+{
+    font-size: 1.2vw;
+    width: 45vw;
+    float: right;
+    word-spacing: 2vh;
+    padding: 2vw;
+}
+
+nav li
+{
+    display: inline-block;
+    line-height: 10vh;
+}
+
+section{
+    position: relative;
+    background-image: url("images/1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box{
+    position: relative;
+    top: 22vh;
+    margin-left: 33vw;
+    height: 22vh;
+    width: 33vw;
+    background: rgba(70, 35, 35, 0.8);
+    color: white;
+    font-size: 3em;
+    overflow: hidden;
+    text-align: center;
+}
+.box h1{
+    padding-bottom: 0.4em;
+}
+.box hr{
+    padding:  0;
+    margin: 0;
+    background-color: yellow;
 }
