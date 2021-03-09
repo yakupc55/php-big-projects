@@ -209,3 +209,45 @@ nav li
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.boxu
+{
+    position: relative;
+    top: 10vh;
+    margin-left: 33vw;
+    height: 45vh;
+    width: 33vw;
+    background: rgba(26, 26, 26, 0.8);
+    color: white;
+    font-size: 2em;
+    overflow: hidden;
+    align-items: center;
+    text-align: center;
+}
+
+.boxu p
+{
+    margin: 40px;
+    font-size: 0.5em;
+}
+
+.boxu a
+{
+    color: rgb(111, 162, 204);
+}
+
+.boxu a:hover{
+    color: blue;
+}
+
+form .login
+{
+    margin: auto 40px;
+}
+
+input 
+{
+    height: 25px;
+    width: 12vw;
+    margin: 4px;
+}

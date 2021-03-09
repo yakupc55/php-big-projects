@@ -31,7 +31,22 @@
     <section>
     
     <div class="log_img">
-        
+    <div class="boxu">
+        <h1 style="font-size: 1.5em; text-align: center;">Library Management System</h1><br>
+        <h1>User Login Form</h1><br>
+
+        <form name="login" action="" method="post">
+            <div class="login">
+            <input type="text" name="username" placeholder="Username" id="" required> <br>
+            <input type="password" name="password" placeholder="Password" id="" required> <br>
+            <button>Login</button>
+            </div>
+        </form>
+        <p>
+            <a href="">forgot password</a><br><br><br>
+            New to this website? <a href="registration.php">sign up</a>
+        </p>
+    </div>
     </div>
     
     </section>
